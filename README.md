@@ -1,1 +1,1 @@
-# Document-Clustering-for-Topic-Modelling
+This project applies K-Means clustering and Latent Dirichlet Allocation (LDA) to perform topic modeling on the 20 Newsgroups dataset, helping to identify and understand hidden topics in large text corpora.
