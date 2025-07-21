@@ -6,6 +6,6 @@
 
 **Approach:** Applied two unsupervised learning methods:  
 - **K-Means** on TF-IDF vectors for document clustering  
-- **LDA** on Bag-of-Words for topic modeling  
+- **LDA** on Bag-of-Words for topic modeling
 We compared their performance using evaluation metrics and visualizations.
 
