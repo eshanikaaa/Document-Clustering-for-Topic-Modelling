@@ -1,6 +1,6 @@
-# 🧠 Topic Modeling and Clustering on Real-world Text Data using LDA and K-Means
+# Topic Modeling and Clustering on Real-world Text Data using LDA and K-Means
 
-## 🎯 Objective
+##  Objective
 
 To uncover **latent topics** and group similar documents from the **20 Newsgroups dataset** using:
 - **Latent Dirichlet Allocation (LDA)** for topic modeling
@@ -10,7 +10,7 @@ This project helps in organizing and summarizing large unstructured text data ef
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **[20 Newsgroups](http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups)**  
 A benchmark dataset consisting of **20,000 documents** from **20 categories** such as:
@@ -22,7 +22,7 @@ A benchmark dataset consisting of **20,000 documents** from **20 categories** su
 
 ---
 
-## 🧪 Approach
+## Approach
 
 We applied **two powerful unsupervised learning techniques**:
 
@@ -39,11 +39,11 @@ We applied **two powerful unsupervised learning techniques**:
 
 ## Features
 
-- 📝 Input any paragraph or document  
-- 🔍 Get predicted **topic cluster (KMeans)** and **dominant topic (LDA)**  
-- 📊 View full **topic distribution from LDA**  
-- 💡 Clean, responsive UI powered by **Streamlit**  
-- ⚡ Instant predictions using **pre-trained models**
+-  Input any paragraph or document  
+-  Get predicted **topic cluster (KMeans)** and **dominant topic (LDA)**  
+-  View full **topic distribution from LDA**  
+-  Clean, responsive UI powered by **Streamlit**  
+-  Instant predictions using **pre-trained models**
 
 ---
 
@@ -60,5 +60,14 @@ We applied **two powerful unsupervised learning techniques**:
 ---
 
 ## 📁 Project Structure
+document-clustering-for-topic-modelling
+│
+├── app.py # Streamlit web app
+├── requirements.txt # Python dependencies
+├── kmeans_model.pkl # Trained KMeans model
+├── tfidf_vectorizer.pkl # TF-IDF vectorizer
+├── lda_model.pkl # Trained LDA model
+├── count_vectorizer.pkl # Count vectorizer
+└── README.md # Project documentation
 
 
