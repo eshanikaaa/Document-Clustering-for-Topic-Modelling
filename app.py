@@ -30,12 +30,12 @@ if st.button("Predict Topic"):
         lda_topic_distribution = lda_model.transform(count_text)
         lda_topic = np.argmax(lda_topic_distribution)
 
-        st.success("\ud83c\udf0e Results")
-        st.write(f"\ud83d\udd22 **KMeans Cluster:** {kmeans_cluster}")
-        st.write(f"\ud83c\udf93 **LDA Topic:** {lda_topic}")
+        st.success("Results")
+        st.write(**KMeans Cluster:** {kmeans_cluster}")
+        st.write(**LDA Topic:** {lda_topic}")
 
         # Show topic distribution for LDA
-        st.subheader("\ud83d\udcca LDA Topic Distribution:")
+        st.subheader(" LDA Topic Distribution:")
         for i, prob in enumerate(lda_topic_distribution[0]):
             st.write(f"Topic {i}: {prob:.4f}")
 
