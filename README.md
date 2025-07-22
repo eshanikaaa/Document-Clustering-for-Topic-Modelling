@@ -7,5 +7,22 @@
 **Approach:** Applied two unsupervised learning methods:  
 - **K-Means** on TF-IDF vectors for document clustering  
 - **LDA** on Bag-of-Words for topic modeling
-We compared their performance using evaluation metrics and visualizations.
 
+**Live App**
+🔗
+
+Features
+-Input any paragraph or document
+-Get predicted topic cluster (KMeans) and dominant topic (LDA)
+-View full topic distribution from LDA
+-Clean and minimal UI powered by Streamlit
+-Built using pre-trained models for instant predictions
+
+**Tech Stack**
+-Python 3
+-Streamlit
+-Scikit-learn
+-Joblib
+-TF-IDF & Count Vectorization
+-KMeans Clustering
+-Latent Dirichlet Allocation (LDA)
