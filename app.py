@@ -13,7 +13,7 @@ count_vectorizer = joblib.load("count_vectorizer.pkl")
 
 # Streamlit app UI
 st.set_page_config(page_title="Topic Modeling App", layout="centered")
-st.title("\ud83d\udd0d Topic Modeling with KMeans and LDA")
+st.title("Topic Modeling with KMeans and LDA")
 
 text_input = st.text_area("Enter a paragraph or document:", height=200)
 
