@@ -13,7 +13,7 @@ count_vectorizer = joblib.load("count_vectorizer.pkl")
 
 # Streamlit app UI
 st.set_page_config(page_title="Topic Modeling App", layout="centered")
-st.title("Topic Modeling with KMeans and LDA")
+st.title("🔍 Topic Modeling with KMeans and LDA")
 
 text_input = st.text_area("Enter a paragraph or document:", height=200)
 
@@ -30,14 +30,15 @@ if st.button("Predict Topic"):
         lda_topic_distribution = lda_model.transform(count_text)
         lda_topic = np.argmax(lda_topic_distribution)
 
-        st.success("Results")
-        st.write(**KMeans Cluster:** {kmeans_cluster}")
-        st.write(**LDA Topic:** {lda_topic}")
+        st.success("🌍 Results")
+        st.write(f"**KMeans Cluster:** {kmeans_cluster}")
+        st.write(f"**LDA Topic:** {lda_topic}")
 
         # Show topic distribution for LDA
-        st.subheader(" LDA Topic Distribution:")
+        st.subheader("📊 LDA Topic Distribution:")
         for i, prob in enumerate(lda_topic_distribution[0]):
             st.write(f"Topic {i}: {prob:.4f}")
 
 st.markdown("---")
 st.markdown("Made by Eshanika Marwaha")
+
